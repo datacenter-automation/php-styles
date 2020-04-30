@@ -1,0 +1,19 @@
+{
+  "name": "datacenter-automation/php-styles",
+  "description": "Datacenter Automation Suite's shared PHP style rules for PHP-CS-Fixer",
+  "license": "MIT",
+  "require": {
+    "friendsofphp/php-cs-fixer": "^2.0"
+  },
+  "autoload": {
+    "files": [
+      "./src/helpers.php"
+    ]
+  },
+  "repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/datacenter-automation/php-styles"
+  }
+]
+}
